@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class trueFalse {
-    public static void truefalse(String[] args) throws Exception {
+    public static void truefalse() throws Exception {
         while (true) {
             int answer = JOptionPane.showConfirmDialog(null, "Is rock climbing fun?", null, JOptionPane.YES_NO_OPTION);
 

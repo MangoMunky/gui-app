@@ -11,6 +11,7 @@ public class App {
         JOptionPane.showMessageDialog(null, "Youre name is " + name);
         JOptionPane.showMessageDialog(null, "You are " + age + " years old");
 
-        trueFalse.truefalse(args);
+        trueFalse.truefalse();
+        guessGame.guessGame();
     }
 }
